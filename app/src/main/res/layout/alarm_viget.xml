@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/time_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:text="8:50"
+        android:textSize="70dp"
+        />
+
+    <ImageButton
+        android:layout_marginLeft="300dp"
+        android:id="@+id/remove_button"
+        android:layout_width="93dp"
+        android:layout_height="93dp"
+        android:layout_gravity="top|right"
+        android:backgroundTint="@color/blue2"
+        android:src="@drawable/ic_baseline_close_24" />
+</FrameLayout>
+</LinearLayout>

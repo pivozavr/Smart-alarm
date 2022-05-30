@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose ringtone"
+        android:textSize="20dp" />
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/classic"
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:text="Classic"
+             android:textSize="40dp"/>
+        <RadioButton
+            android:id="@+id/hotline"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Hotline Miami"
+            android:textSize="40dp"/>
+        <RadioButton
+            android:id="@+id/xiaomi"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Xiaomi"
+            android:textSize="40dp"/>
+        <RadioButton
+            android:id="@+id/oppo"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Oppo"
+            android:textSize="40dp"/>
+    </RadioGroup>
+    <Button
+        android:id="@+id/accept_music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Accept"
+        android:layout_marginTop="30dp"/>
+</LinearLayout>
